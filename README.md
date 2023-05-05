@@ -1,4 +1,11 @@
 
+```
+Teacher login
+email: teacher@gmail.com
+password : password
+```
+
+
 # Installation
 
 1. **Clone or download this Repository.**

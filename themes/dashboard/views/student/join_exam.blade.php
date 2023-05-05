@@ -42,7 +42,7 @@
                        <div class="col-sm-4">
                            <h3><b>Timer</b> :  <span class="js-timeout" id="timer">{{ $exam['exam_duration']}}:00</span></h3>
                        </div>
-                       
+
                         <div class="col-sm-4">
                             <h3 class="text-right"><b>Status</b> :Running</h3>
                         </div>
@@ -68,10 +68,10 @@
                               ?>
                               <input type="hidden" name="question{{$key+1}}" value="{{$q['id']}}">
                               <ul class="question_options">
-                                  <li><input type="radio" value="{{ $options['option1']}}" name="ans{{$key+1}}"> {{ $options['option1']}}</li>
-                                  <li><input type="radio" value="{{ $options['option2']}}" name="ans{{$key+1}}"> {{ $options['option2']}}</li>
-                                  <li><input type="radio" value="{{ $options['option3']}}" name="ans{{$key+1}}"> {{ $options['option3']}}</li>
-                                  <li><input type="radio" value="{{ $options['option4']}}" name="ans{{$key+1}}"> {{ $options['option4']}}</li>
+                                  <li><input type="radio" value="option_1" name="ans{{$key+1}}"> {{ $options['option1']}}</li>
+                                  <li><input type="radio" value="option_2" name="ans{{$key+1}}"> {{ $options['option2']}}</li>
+                                  <li><input type="radio" value="option_3" name="ans{{$key+1}}"> {{ $options['option3']}}</li>
+                                  <li><input type="radio" value="option_4" name="ans{{$key+1}}"> {{ $options['option4']}}</li>
 
                                   <li style="display: none;"><input value="0" type="radio" checked="checked" name="ans{{$key+1}}"> {{ $options['option4']}}</li>
                               </ul>
